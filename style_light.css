@@ -1,0 +1,29 @@
+h1,h2,ol,p{
+    color: #222831;
+    font-family: bookerly;
+    text-align: center;
+}
+
+h1{
+    font-size: 300%;
+    color: #00adb5;
+}
+
+h2 {
+    color: #00adb5;
+}
+
+p {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@font-face{
+    font-family: bookerly;
+    src: url('font/Bookerly-Regular.ttf')
+}
+
+body{
+    background-color: #eeeeee;
+}
