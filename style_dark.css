@@ -37,3 +37,7 @@ aside {
     border-left: #00adb5;
     border-left: 1px;
 }
+
+#habits_concluded{
+    text-align: center;
+}
