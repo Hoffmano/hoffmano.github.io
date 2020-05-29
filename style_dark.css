@@ -4,22 +4,23 @@ ol,
 p {
     color: #eeeeee;
     font-family: bookerly;
-    text-align: center;
+    text-align: justify;
+    margin: 5%;
 }
 
 h1 {
     font-size: 300%;
     color: #00adb5;
+    font-family: bookerly;
+    text-align: center;
 }
 
-h2{
+h2,
+ul,
+li {
     color: #00adb5;
-}
-
-p {
-    text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
+    align-self: center;
+    margin-left: 5%;
 }
 
 @font-face {
@@ -29,4 +30,10 @@ p {
 
 body {
     background-color: #222831;
+}
+
+aside {
+    border-style: solid;
+    border-left: #00adb5;
+    border-left: 1px;
 }
