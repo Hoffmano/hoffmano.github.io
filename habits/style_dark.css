@@ -5,7 +5,6 @@ p {
     color: #eeeeee;
     font-family: bookerly;
     text-align: justify;
-    margin: 5%;
 }
 
 h1 {
@@ -20,7 +19,6 @@ ul,
 li {
     color: #00adb5;
     align-self: center;
-    margin-left: 5%;
 }
 
 @font-face {
@@ -32,12 +30,16 @@ body {
     background-color: #222831;
 }
 
-aside {
-    border-style: solid;
-    border-left: #00adb5;
-    border-left: 1px;
+
+
+#habits_concluded {
+    text-align: center;
 }
 
-#habits_concluded{
-    text-align: center;
+#habits_list {
+    background-color: #161a20;
+    max-height: 50vh;
+    overflow-y: scroll;
+    scrollbar-color: #00adb5 #0f1114;
+    scrollbar-width: thin;
 }

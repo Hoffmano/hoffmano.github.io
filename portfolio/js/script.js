@@ -1,0 +1,1 @@
+fitText(document.querySelector("#name"), 2);

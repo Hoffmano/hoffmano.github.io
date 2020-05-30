@@ -1,0 +1,39 @@
+#mobile {
+    background-color: #a7e48b;
+    position: relative;
+    width: 50.84%;
+    padding-bottom: 90%;
+    float: left;
+    height: 0;
+}
+
+#laptop {
+    background-color: #c47e2e;
+    position: relative;
+    width: 90%;
+    padding-bottom: 50.84%;
+    float: left;
+    height: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff00dd65;
+}
+
+.col {
+    width: 100%;
+    height: 100%;
+    border: 1px dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tela {
+    background-color: #8bafe4;
+    width: 100%;
+    height: 100%;
+}
