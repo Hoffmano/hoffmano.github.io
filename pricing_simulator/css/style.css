@@ -31,8 +31,6 @@
     font-size: 2rem;
 }
 
-
-
 #name_container {
     /* background-color: #edff86; */
     margin-left: 1vw;
@@ -50,16 +48,11 @@
     text-align: justify;
 }
 
-
-
 #projects_row {
     /* background-color: #b7e4b5a9; */
     margin-top: 1vw;
     margin-left: 1vw;
     margin-right: 1vw;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .project_container {
@@ -92,7 +85,6 @@
     transform: translate(-50%, -50%);
     transition: transform .5s ease;
     font-weight: bold;
-    font-size: 1rem;
 }
 
 
@@ -105,5 +97,5 @@
     transition: transform .5s ease;
     font-weight: bold;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.7rem;
 }
