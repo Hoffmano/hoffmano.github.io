@@ -5,14 +5,14 @@ function switch_theme() {
 		document
 			.getElementById("pagestyle")
             .setAttribute("href", "css/style.css");
-        console.log("light");
+        console.log("theme changed to light mode");
         
 		current_theme.classList.remove("dark");
 	} else {
 		document
 			.getElementById("pagestyle")
 			.setAttribute("href", "css/dark_mode.css");
-        console.log("dark");
+        console.log("theme changed to dark mode");
 		current_theme.classList.add("dark");
 	}
 }
